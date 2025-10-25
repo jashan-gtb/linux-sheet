@@ -1,46 +1,21 @@
-File and Directory Management:
+LINUX CHEATSHEET FOR COMMANDS-
+ls- lists in directories
+pwd- present working directory
+cd- change directory
+cd ..- exit directory
+mkdir- make directory
+touch- creates an empty file
+mv filename direct/ - moves file
+cp filename direct/ - copy files
+sudo apt install- install something
+sudo apt update- shows available updates
+sudo apt upgrade- actually update
+ls -R - shows direct within direct
+touch.filename- creates hidden file
+ls -a - shows hidden files
+top- shows processes using most resources
+ps- shows running process
+ps -a - shows background process
+kill- kills the process via PID
+ls -l - shows permissions
 
-ls: List directory contents.
-ls -l: Long listing format (permissions, owner, size, date).
-ls -a: List all files, including hidden files.
-pwd: Print working directory (show the current directory's full path).
-cd <directory>: Change directory to <directory>.
-cd ..: Move to the parent directory.
-cd ~: Move to the home directory.
-mkdir <directory_name>: Create a new directory.
-rm <file_name>: Remove (delete) a file.
-rm -r <directory_name>: Remove a directory and its contents recursively. 
-rm -rf <directory_name>: Forcefully remove a directory and its contents. 
-cp <source> <destination>: Copy files or directories.
-cp -r <source_directory> <destination_directory>: Copy directories recursively.
-mv <source> <destination>: Move or rename files or directories.
-touch <file_name>: Create an empty file or update a file's timestamp.
-cat <file_name>: Display the contents of a file.
-head <file_name>: Display the beginning lines of a file.
-tail <file_name>: Display the ending lines of a file.
-
-System Information and Monitoring:
-
-uname -a: Display all system information.
-df -h: Show disk space usage in human-readable format.
-du -sh <directory>: Estimate disk usage of a directory in human-readable format.
-free -h: Display memory usage information in human-readable format.
-top: Display and manage running processes interactively.
-ps aux: List all running processes.
-
-Permissions and Ownership:
-
-chmod <permissions> <file_name>: Change file permissions (e.g., chmod 755 script.sh).
-chown <user>:<group> <file_name>: Change file ownership.
-
-Networking:
-
-ping <hostname_or_IP>: Send ICMP echo requests to a host.
-ip a: Display network interface information.
-wget <URL>: Download files from the internet.
-ssh <user>@<host>: Securely connect to a remote server.
-
-Searching and Filtering:
-
-grep <pattern> <file_name>: Search for a pattern within a file.
-find <path> -name <pattern>: Locate files or directories by name.
